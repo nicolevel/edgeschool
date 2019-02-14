@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Blogs</h1>
+<h1>Gallery</h1>
 
 <table>
   <thead>
@@ -12,10 +12,10 @@
   </thead>
 
   <tbody>
-    <% @blogs.each do |blog| %>
+    <% @galleries.each do |gallery| %>
       <tr>
-        <td><%= blog.title %></td>
-        <td><%= blog.body %></td>
+        <td><%= gallery.title %></td>
+        <td><%= gallery.description %></td>
       </tr>
     <% end %>
   </tbody>
