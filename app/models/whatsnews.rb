@@ -1,0 +1,2 @@
+class Whatsnews < ApplicationRecord
+end

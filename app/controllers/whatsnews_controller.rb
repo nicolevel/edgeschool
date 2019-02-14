@@ -1,0 +1,2 @@
+class WhatsnewsController < ApplicationController
+end
