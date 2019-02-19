@@ -1,7 +1,7 @@
 <div class="blog">
 <p id="notice"><%= notice %></p>
 
-<h1>Blogs</h1>
+<!-- <h1>Blogs</h1>
 
 <table>
   <thead>
@@ -24,7 +24,7 @@
 
 <br>
 
-</div>
+</div> -->
 
 
 
@@ -51,14 +51,13 @@
 
     <!-- Grid column -->
     <div class="col-lg-7">
-
       <!-- Category -->
       <% @blogs.each do |blog| %>
       <a href="#!" class="green-text">
       </a>
+
       <!-- Post title -->
       <h3 class="font-weight-bold mb-3"><strong><%= blog.title %></strong></h3>
-
       <!-- Excerpt -->
       <p><%= blog.body %></p>
       <!-- Post data -->
@@ -76,7 +75,7 @@
     <!-- Grid column -->
 
   </div>
-  <!-- Grid row -->
+</div>
 </div>
 
 

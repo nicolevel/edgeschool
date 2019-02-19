@@ -1,8 +1,6 @@
 source 'https://rubygems.org'
 ruby '2.5.3'
 
-
-gem 'dotenv-rails', groups: [:development, :test]
 gem 'bootsnap', require: false
 gem 'devise'
 gem 'jbuilder', '~> 2.0'
@@ -10,7 +8,6 @@ gem 'pg', '~> 0.21'
 gem 'puma'
 gem 'rails', '5.2.2'
 gem 'redis'
-
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass', '~> 3.3'
 gem 'font-awesome-sass', '~> 5.5.0'
@@ -18,9 +15,9 @@ gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
-gem 'rails_admin', '~> 1.3'
-gem 'cloudinary', '~> 1.9.1'
-gem 'carrierwave', '~> 1.2'
+gem 'rails_admin'
+gem 'cloudinary'
+gem 'carrierwave'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
