@@ -1,0 +1,102 @@
+// Specific CSS for your home-page
+// .background {
+//   background: url(images/blackboard.jpg) no-repeat center center fixed;
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//   background-size: cover;
+// }
+
+
+.background {
+background-image:url("blackboard.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+.title h1{
+font-family: 'Cabin Sketch', cursive;
+color: white;
+font-size: 100px;
+text-align:center;
+}
+
+.title h3{
+color:white;
+font-family: 'Roboto Mono', monospace;
+font-size: 35px;
+text-align: center;
+}
+
+.image{
+  // background-image:url("home1.jpg");
+  background-image:url("./home1.jpg");
+  height: 50%;
+  width: 50%;
+}
+
+
+
+
+
+
+
+.lib-panel {
+    margin-bottom: 20Px;
+}
+.lib-panel img {
+    width: 100%;
+    background-color: transparent;
+}
+
+.lib-panel .row,
+.lib-panel .col-md-6 {
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+
+.lib-panel .lib-row {
+    padding: 0 20px 0 20px;
+}
+
+.lib-panel .lib-row.lib-header {
+    background-color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px 20px 0 20px;
+}
+
+.lib-panel .lib-row.lib-header .lib-header-seperator {
+    height: 2px;
+    width: 26px;
+    background-color: #d9d9d9;
+    margin: 7px 0 7px 0;
+}
+
+.lib-panel .lib-row.lib-desc {
+    position: relative;
+    height: 100%;
+    display: block;
+    font-size: 13px;
+}
+.lib-panel .lib-row.lib-desc a{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 20px;
+}
+
+.row-margin-bottom {
+    margin-bottom: 20px;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+}
+
+.no-padding {
+    padding: 0;
+}
