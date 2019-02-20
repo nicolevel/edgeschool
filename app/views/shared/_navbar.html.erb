@@ -1,4 +1,13 @@
-<div class="navbar-wagon">
+<script>
+  $(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar-fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+</script>
+
+<div class="navbar-wagon navbar-fixed-top">
   <!-- Logo -->
   <%= link_to root_path, class: "navbar-wagon-brand" do %>
     <%= image_tag "edgeschoollogo.png", height: 200 %>
