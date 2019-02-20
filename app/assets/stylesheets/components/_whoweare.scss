@@ -2,24 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700');
 
 .coverabout{
-  margin-top: -200px;
   background-image: url('image1.jpeg');
   background-size: cover;
+  height: 150vh;
 }
-
-.imageabout1{
-  background-image: url('image9.jpeg');
-}
-
-.imageabout2{
-  background-image: url('image9.jpeg');
-}
-
-.imageabout3{
-  background-image: url('image9.jpeg');
-}
-
-
 
 .aboutcontainer h1{
   font-family: 'Amatic SC', cursive;
@@ -33,3 +19,29 @@
   font-family: 'Roboto Mono', monospace;
   font-size: 2em;
 }
+
+.imagepic{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25%;
+  display: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: rotate(5deg);
+}
+
+.imagepic1{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.imagepic2{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: rotate(-5deg);
+}
+
