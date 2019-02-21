@@ -15,23 +15,25 @@
         <div class="card-body" style="background-color: #ADAAAA;">
 
           <!-- Body -->
+          <form action="MessageMailer" method="post">
           <div class="md-form" >
-            <input type="text" id="form-name" class="form-control" placeholder="NAME" style="font-size: 25px;">
+            <input type="text" id="form-name" name="name" class="form-control" placeholder="NAME" style="font-size: 25px;">
           </div>
           <div class="md-form">
-            <input type="text" id="form-email" class="form-control" placeholder="EMAIL" style="font-size: 25px;">
+            <input type="text" id="form-email" name="mail" class="form-control" placeholder="EMAIL" style="font-size: 25px;">
           </div>
           <div class="md-form">
-            <input type="text" id="form-Subject" class="form-control" placeholder="SUBJECT" style="font-size: 25px;">
+            <input type="text" id="form-Subject" name="subject"class="form-control" placeholder="SUBJECT" style="font-size: 25px;">
           </div>
           <div class="md-form">
-            <textarea type="text" id="form-text" class="form-control md-textarea" rows="4" placeholder="SEND MESSAGE" style="font-size: 25px;"></textarea>
+            <textarea type="text" id="form-text" name="message" class="form-control md-textarea" rows="4" placeholder="SEND MESSAGE" style="font-size: 25px;"></textarea>
           </div>
           <div class="text-center">
-            <button class="btn btn-block btn-contact" style="font-size: 25px; font-weight: bold;">Submit</button>
+            <button class="btn btn-block btn-contact" type="submit" name="submit" style="font-size: 25px; font-weight: bold;">Submit</button>
           </div>
         </div>
       </div>
+      </form>
       <!-- Form with header -->
 
     </div>
@@ -40,7 +42,7 @@
     <!-- Grid column -->
     <div class="col-lg-5">
 
-      <%= image_tag'image8.jpeg', size: "510x710" %>
+      <%= image_tag'image8.png', size: "510x710" %>
 
     </div>
     <!-- Grid column -->
