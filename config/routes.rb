@@ -9,8 +9,7 @@ Rails.application.routes.draw do
   get 'pages/whoweare', as: 'whoweare'
   resources :gallery
   resources :messages, only: [:index, :new, :create]
-  get 'messages#new'
-  post 'messages#create'
+  resources :contact, only: [:index, :new, :create]
 
   root to: 'pages#home'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
