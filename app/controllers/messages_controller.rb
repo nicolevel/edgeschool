@@ -13,7 +13,7 @@ def create
     if @contact.deliver
       # re-initialize Home object for cleared form
       @contact = Message.new
-      format.html { render 'pages/contact', :layout => false }
+      format.html { render 'messages/index', :layout => false }
       format.js   { flash.now[:success] = @message = "Thank you for your message. I'll get back to you soon!" }
     else
       format.html { render 'pages/contact', :layout => false  }

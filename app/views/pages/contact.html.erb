@@ -1,78 +1,54 @@
+<%= render 'shared/navbar' %>
 <!-- Section: Contact v.1 -->
 <section class="container-fluid" id="martop" style="background-color: #ADAAAA;">
-<div class="container">
-  <!-- Grid row -->
-  <div class="row">
+  <div class="container">
+    <!-- Grid row -->
+    <div class="row">
 
-    <!-- Grid column -->
-    <div class="col-lg-7 mb-lg-0 mb-4" >
+      <!-- Grid column -->
+      <div class="col-lg-6 mb-lg-0 mb-4" >
 
-      <!-- Form with header -->
-      <div class="card" style="background-color: #ADAAAA;">
-        <h1>contact us</h1>
-        <h3>For more info or enquiries, please contact us on the details provided below.</h3>
-        <h5>Tel: 076 8200059  |  Email: info@edgeschools.co.za</h5>
-        <div class="card-body" style="background-color: #ADAAAA;">
+        <!-- Form with header -->
+        <div class="card" style="background-color: #ADAAAA;">
+          <h1>contact us</h1>
+          <h3>For more info or enquiries, please contact us on the details provided below.</h3>
+          <h5>Tel: 076 8200059  |  Email: info@edgeschools.co.za</h5>
+          <div class="card-body" style="background-color: #ADAAAA;">
 
-          <!-- Body -->
-<!--           <form action="messages#new" method="post">
-          <div class="md-form" >
-            <input type="text" id="form-name" name="name" class="form-control" placeholder="NAME" style="font-size: 25px;">
+            <div id="contact">
+              <%= form_for Message.new do |f| %>
+
+              <%= f.label :name %></br>
+              <%= f.text_field  :name, required: true, class: "contact-form-text-area" %></br>
+
+              <%= f.label :email %></br>
+              <%= f.text_field :email, required: true, class: "contact-form-text-area" %></br>
+
+              <%= f.label :message %></br>
+              <%= f.text_area :message, rows: 8, cols: 40, required: true, class: "contact-form-text-area",
+              placeholder: "Send me a message"%></br>
+
+              <%= f.submit 'Send Message', class: 'btn btn-primary' %>
+
+              <% end %>
+              <div  id="flash-message">
+                <%= render 'shared/flash' %>
+              </div>
+            </div>
           </div>
-          <div class="md-form">
-            <input type="text" id="form-email" name="mail" class="form-control" placeholder="EMAIL" style="font-size: 25px;">
-          </div>
-          <div class="md-form">
-            <input type="text" id="form-Subject" name="subject"class="form-control" placeholder="SUBJECT" style="font-size: 25px;">
-          </div>
-          <div class="md-form">
-            <textarea type="text" id="form-text" name="message" class="form-control md-textarea" rows="4" placeholder="SEND MESSAGE" style="font-size: 25px;"></textarea>
-          </div>
-          <div class="text-center">
-            <button class="btn btn-block btn-contact" type="submit" name="submit" style="font-size: 25px; font-weight: bold;">Submit</button>
-          </div>
+          <!-- Grid column -->
         </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
       </div>
-      </form> -->
-      <!-- Form with header -->
-<div id="contact">
-  <%= form_for Message.new do |f| %>
-    <div class="col-md-6">
-        <%= f.label :name %></br>
-        <%= f.text_field  :name, required: true, class: "contact-form-text-area" %></br>
+      <div class="col-lg-5">
 
-        <%= f.label :email %></br>
-        <%= f.text_field :email, required: true, class: "contact-form-text-area" %></br>
+        <%= image_tag'image8.png', size: "510x710" %>
 
-      <%= f.label :message %></br>
-      <%= f.text_area :message, rows: 8, cols: 40, required: true, class: "contact-form-text-area",
-      placeholder: "Send me a message"%></br>
-
-      <div class= "hidden">
-        <%= f.label :nickname %>
-        <%= f.text_field :nickname, :hint => 'Leave this field blank!' %>
       </div>
-
-      <%= f.submit 'Send Message', class: 'btn btn-primary' %>
     </div>
-  <% end %>
-  <div class="col-md-6" id="flash-message">
-    <%= render 'shared/flash' %>
+    <!-- Grid row -->
   </div>
-    </div>
-</div>
-    <!-- Grid column -->
-
-    <!-- Grid column -->
-    <div class="col-lg-5">
-
-      <%= image_tag'image8.png', size: "510x710" %>
-
-    </div>
-    <!-- Grid column -->
-
-  </div>
-  <!-- Grid row -->
-</div>
 </section>
 <!-- Section: Contact v.1 -->
