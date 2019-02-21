@@ -8,25 +8,31 @@
 // }
 
 .background {
-background-image:url("blackboard.jpg");
-background-repeat: no-repeat;
+background-image:url("chalkboard4.jpg");
+// background-repeat: no-repeat;
 background-size: cover;
 }
 
 
 .title h1{
-font-family: 'Cabin Sketch', cursive;
 color: white;
-font-size: 100px;
 text-align:center;
-    margin-top: 20%;
+margin-top: 20%;
+font-family: Cabin Sketch;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 115px;
 }
 
 .title h3{
 color:white;
-font-family: 'Roboto Mono', monospace;
-font-size: 35px;
-text-align: center;
+font-family: "Amatic SC";
+font-style: normal;
+// font-weight: 700; letter-spacing: 0em;
+font-size: 40px;
+margin-top: 5%;
+text-align:center;
 }
 
 .images{
@@ -34,6 +40,19 @@ text-align: center;
   height: 200%;
 }
 
+.pictures{
+  color:black;
+  text-align:center;
+
+
+  h2{
+font-family: Amatic SC;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 96px;
+  }
+}
 
 /********************* Shopping Demo-5 **********************/
 .product-image5 .pic-1,.product-image5 .pic-2{backface-visibility:hidden;transition:all .5s ease 0s}
@@ -68,3 +87,67 @@ text-align: center;
   height: 10vh;
 }
 
+.imagehome{
+margin-bottom: 40%;
+margin-top:10%;
+img {
+    vertical-align: middle;
+    border-style: none;
+    margin: 20px;
+}
+}
+
+.product-grid5 .title a {
+    color: black;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 20px;
+}
+
+
+.product-image5{
+  border-radius:10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.picture1{
+position: absolute;
+transform: matrix(1, -0.07, 0.07, 1, 0, 0);
+height: 164.89px;
+left: 10%;
+top: 905.12px;
+margin-top:20%;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.picture2{
+position:absolute;
+transform: matrix(1, -0.07, 0.07, 1, 0, 0);
+height: 479.17px;
+left: 40%;
+top: 727.92px;
+margin-top:20%;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.picture3{
+position:absolute;
+transform: matrix(0.98, 0.18, -0.2, 0.98, 0, 0);
+height: 500.71px;
+left: 45%;
+top: 1124.54px;
+margin-top:20%;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+@media only screen and (max-width: 998px) {
+  .imagehome{
+    display:none;
+  }
+}
