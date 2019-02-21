@@ -20,6 +20,7 @@ gem 'cloudinary'
 gem 'carrierwave'
 gem 'mail_form'
 gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
+gem 'turbolinks'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
