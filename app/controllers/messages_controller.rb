@@ -1,4 +1,6 @@
 class MessagesController < ApplicationController
+  skip_before_action :authenticate_user!, only: [:contact, :index, :create]
+
 def contact
   @contact = Message.new(params[:message])
 end
