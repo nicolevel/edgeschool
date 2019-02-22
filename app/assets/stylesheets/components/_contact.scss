@@ -39,3 +39,54 @@
   margin-top:10px;
   background-color: #B6BFD0 !important;
 }
+
+// online contact form
+.contact-form-text-area {
+  font-size: 2.2em !important;
+  margin-top:10px !important;
+  width: 100% !important;
+}
+
+.btn-block{
+  font-size: 2em !important;
+  background-color: #AF003B !important;
+}
+
+.btn-block:hover{
+  border: 2px solid #AF003B !important;
+  background-color: #B6BFD0 !important;
+  color: #AF003B !important;
+}
+
+.hidden { display: none; }
+.alert-error {
+background-color: #f2dede;
+border-color: #eed3d7;
+color: #b94a48;
+text-align: left;
+font-size: .8em;
+}
+
+.alert-alert {
+background-color: #f2dede;
+border-color: #eed3d7;
+color: #b94a48;
+text-align: left;
+font-size: .8em;
+}
+
+.alert-success {
+background-color: #dff0d8;
+border-color: #d6e9c6;
+color: #468847;
+text-align: center;
+font-size: .8em;
+}
+
+.alert-notice {
+background-color: #dff0d8;
+border-color: #d6e9c6;
+color: #468847;
+text-align: left;
+font-size: .8em;
+}

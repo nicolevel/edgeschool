@@ -1,23 +1,28 @@
 class MessagesController < ApplicationController
-  def new
-    @message = Message.new
-  end
+  skip_before_action :authenticate_user!, only: [:contact, :index, :create]
 
-  def create
-    @message = Message.new message_params
-    if @message.valid?
-      MessageMailer.contact(@message).deliver_now
-      redirect_to new_message_url
-      flash[:notice] = "We have received your message and will be in touch soon!"
+def contact
+  @contact = Message.new(params[:message])
+end
+
+def index
+end
+
+def create
+  @contact = Message.new(params[:message])
+  @contact.request = request
+  respond_to do |format|
+    if @contact.deliver
+      # re-initialize Home object for cleared form
+      @contact = Message.new
+      format.html { render 'messages/index', :layout => false }
+      format.js   { flash.now[:success] = @message = "Thank you for your message. I'll get back to you soon!" }
     else
-      flash[:notice] = "There was an error sending your message. Please try again."
-      render :new
+      format.html { render 'pages/contact', :layout => false  }
+      format.js   { flash.now[:error] = @message = "Message did not send." }
+    end
     end
   end
 
-private
 
-  def message_params
-    params.require(:message).permit(:name, :email, :body)
-  end
 end

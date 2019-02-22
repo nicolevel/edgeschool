@@ -18,8 +18,9 @@ gem 'webpacker'
 gem 'rails_admin'
 gem 'cloudinary'
 gem 'carrierwave'
-gem 'mailgun-ruby', '~>1.1.6'
-gem 'figaro'
+gem 'mail_form'
+gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
+gem 'turbolinks'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
