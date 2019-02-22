@@ -42,7 +42,20 @@
 
 // online contact form
 .contact-form-text-area {
-  color: black;
+  font-size: 2.2em !important;
+  margin-top:10px !important;
+  width: 100% !important;
+}
+
+.btn-block{
+  font-size: 2em !important;
+  background-color: #AF003B !important;
+}
+
+.btn-block:hover{
+  border: 2px solid #AF003B !important;
+  background-color: #B6BFD0 !important;
+  color: #AF003B !important;
 }
 
 .hidden { display: none; }
