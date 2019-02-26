@@ -21,6 +21,8 @@ gem 'carrierwave'
 gem 'mail_form'
 gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
 gem 'turbolinks'
+gem "paperclip", "~> 6.0.0"
+gem 'paperclip-av-transcoder'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
@@ -32,6 +34,5 @@ group :development, :test do
   gem 'listen', '~> 3.0.5'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'dotenv-rails'
   gem 'dotenv-rails', groups: [:development, :test]
 end
