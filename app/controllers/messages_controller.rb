@@ -6,6 +6,7 @@ def contact
 end
 
 def index
+  @contact = Message.new(params[:message])
 end
 
 def create
