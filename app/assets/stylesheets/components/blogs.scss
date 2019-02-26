@@ -1,4 +1,5 @@
 
+
 .blogimages{
 img{
   height:250px;
@@ -15,7 +16,7 @@ font-weight: normal;
 line-height: normal;
 font-size: 36px;
 margin-bottom: 85px !important;
-// text-align: left !important;
+text-align: left !important;
 // margin-left: 3% !important;
 }
 
@@ -25,7 +26,7 @@ margin-bottom: 85px !important;
     font-weight: bold;
     line-height: normal;
     font-size: 64px;
-    // text-align: left !important;
+    text-align: left !important;
     // margin-left: 3% !important;
 }
 
@@ -43,5 +44,31 @@ margin-bottom: 85px !important;
     font-weight: normal;
     line-height: normal;
     font-size: 24px;
+
 }
 
+
+.morecontent span {
+    display: none;
+        font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 16px;
+}
+.morelink {
+    display: block;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+font-size: 16px;
+}
+
+.more{
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+font-size: 16px;
+        font-family: Roboto Mono;
+}

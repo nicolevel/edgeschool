@@ -6,9 +6,9 @@
 
 
 <div class="blogs">
-<div class="container-fluid">
+<div class="container">
 
-  <h2 class="h1-responsive font-weight-bold text-center my-5">Recent posts</h2>
+  <h2 class="h1-responsive font-weight-bold text-center my-5"> What's News</h2>
 
   <p class="text-center w-responsive mx-auto mb-5">Discover what we are up to</p>
 <hr>
@@ -16,7 +16,7 @@
 
 <!--blogs -->
 <hr>
-<div class="container-fluid blogcards">
+<div class="container blogcards">
   <% @blogs.each do |blog| %>
     <div class="row">
       <div class="card col-md-12 p-3">
@@ -29,21 +29,15 @@
           <div class="col-md-8">
             <div class="card-block">
               <h6 class="card-title"><%= blog.title %></h6>
-
-
-              <h7 class="card-text text-justify"><%= blog.body %></h7>
-
-<!-- <p><%= truncate(blog.body, length: 550) %>   <%= link_to "Read More" %></p>
-
- -->
-
-
-            </div>
           </br>
-              <a href="" class="btn btn-primary">read more...</a>
               <div>
               </div>
+            </div>
 
+
+ <span class="more">
+      <%= blog.body %>
+    </span>
 
 
           </div>
@@ -55,8 +49,5 @@
 </div>
 </div>
 <hr>
-
-
-
 
 
