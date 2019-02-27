@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  resources :articles
+  mount Ckeditor::Engine => '/ckeditor'
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
+  resources :articles
   resources :blogs
   resources :gallery
   devise_for :users

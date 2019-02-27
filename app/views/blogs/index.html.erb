@@ -29,6 +29,7 @@
           <div class="col-md-8">
             <div class="card-block">
               <h6 class="card-title"><%= blog.title %></h6>
+                <h5> <%= blog.created_at.strftime('%b %d, %Y') %> </h5>
           </br>
               <div>
               </div>
@@ -36,8 +37,21 @@
 
 
  <span class="more">
-      <%= blog.body %>
-    </span>
+ <%= blog.body %>
+       <br>
+       <br>
+ <%= blog.paragraph2 %>
+       <br>
+       <br>
+ <%= blog.paragraph3 %>
+       <br>
+       <br>
+  <%= blog.paragraph4 %>
+       <br>
+       <br>
+  <%= blog.paragraph5 %>
+  </span>
+
 
 
           </div>

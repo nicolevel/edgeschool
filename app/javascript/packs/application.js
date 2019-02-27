@@ -1,5 +1,17 @@
 import "bootstrap";
 
+
+//navbar
+
+  $(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar-fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+
+//other
+
 $(document).ready(function() {
     // Configure/customize these variables.
     var showChar = 400;  // How many characters are shown by default
