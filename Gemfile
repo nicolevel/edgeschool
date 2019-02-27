@@ -23,6 +23,7 @@ gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
 gem 'turbolinks'
 gem "paperclip", "~> 6.0.0"
 gem 'paperclip-av-transcoder'
+gem 'aws-sdk-s3'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
