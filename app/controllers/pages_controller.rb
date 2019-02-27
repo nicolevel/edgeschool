@@ -1,5 +1,6 @@
 class PagesController < ApplicationController
-  skip_before_action :authenticate_user!, only: [:home, :whoweare, :whatweoffer, :contact]
+  skip_before_action :authenticate_user!, only: [:home, :whoweare, :whatweoffer,
+    :contact, :adventure, :leadership, :capacity, :civil, :social]
 
   def home
   end
@@ -11,5 +12,20 @@ class PagesController < ApplicationController
   end
 
   def contact
+  end
+
+  def adventure
+  end
+
+  def capacity
+  end
+
+  def civil
+  end
+
+  def leadership
+  end
+
+  def social
   end
 end

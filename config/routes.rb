@@ -8,6 +8,13 @@ Rails.application.routes.draw do
   get 'pages/contact', as: 'contact'
   get 'pages/whatweoffer', as: 'whatweoffer'
   get 'pages/whoweare', as: 'whoweare'
+
+  get 'pages/adventure', as: 'adventure'
+  get 'pages/civil', as: 'civil'
+  get 'pages/leadership', as: 'leadership'
+  get 'pages/social', as: 'social'
+  get 'pages/capacity', as: 'capacity'
+
   resources :gallery
   resources :messages, only: [:index, :new, :create]
   resources :contact, only: [:index, :new, :create]
