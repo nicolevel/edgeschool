@@ -1,5 +1,5 @@
 /* Main navbar */
-.navbar-wagon {
+.navbar-wagon2 {
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   transition: all 0.3s ease;
   height: 138px;
@@ -7,6 +7,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+   a {
+  color: #0A1C58 !important;
+  font-weight: 150 !important;
+}
 }
 
 /* Logo */
@@ -81,13 +85,3 @@
 }
 
 
-//navbar
-.navbar-fixed-top.scrolled {
-  background-color: #fff !important;
-  transition: background-color 200ms linear !important;
-
-  a {
-  color: #0A1C58 !important;
-  font-weight: 150 !important;
-}
-}
