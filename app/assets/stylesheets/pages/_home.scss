@@ -57,6 +57,31 @@ margin-bottom: 10%;
   }
 }
 
+.program{
+  color:black;
+  text-align:center;
+  margin-top: 5%;
+
+
+  h2{
+font-family: Amatic SC;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 8em;
+margin-top: 13%;
+margin-bottom: 3%;
+  }
+  h3{
+
+    margin-bottom: 5%;
+    font-size: 2.5em;
+    font-weight: normal;
+    font-family: Roboto Mono;
+
+  }
+}
+
 /********************* Shopping Demo-5 **********************/
 .product-image5 .pic-1,.product-image5 .pic-2{backface-visibility:hidden;transition:all .5s ease 0s}
 .product-grid5{font-family:Poppins,sans-serif;position:relative}
