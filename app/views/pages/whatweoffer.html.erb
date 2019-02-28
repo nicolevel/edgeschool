@@ -1,5 +1,89 @@
-<%= render 'shared/navbar' %>
+<%= render 'shared/navbar2' %>
 
 
 <hr>
-<%= render 'shared/programs' %>
+<div class="container program">
+      <h2> Choose the Programme That's Right for You </h2>
+      <h3>All of our programmes are tailored to fulfil the needs and desired outcomes of each specific school or organisation.
+      Programmes can be facilitated on site or at a venue of choice. The duration of each programme varies from half day up to a week.</h3>
+
+    <div class="row">
+        <div class="col-md-4 col-sm-6">
+            <div class="product-grid5">
+                <div class="product-image5">
+                    <a href="#">
+                      <%= link_to image_tag("home2.jpg", height: 100 ), leadership_path %>
+                    </a>
+                    <ul class="social">
+                    </ul>
+                    <a href="#" class="select-options"><i class="fa fa-arrow-right"></i> View Program</a>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Leadership Development</a></h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="product-grid5">
+                <div class="product-image5">
+                    <a href="#">
+                      <%= link_to image_tag("home1.jpg", height: 100 ), adventure_path %>
+                    </a>
+                    <ul class="social">
+                    </ul>
+                    <a href="#" class="select-options"><i class="fa fa-arrow-right"></i> View Program</a>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Adventure Camps</a></h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+            <div class="product-grid5">
+                <div class="product-image5">
+                    <a href="#">
+                      <%= link_to image_tag("home2.jpg", height: 100 ), capacity_path %>
+                    </a>
+                    <ul class="social">
+                    </ul>
+                    <a href="#" class="select-options"><i class="fa fa-arrow-right"></i> View Program</a>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Capacity Building</a></h3>
+                </div>
+            </div>
+        </div>
+
+                <div class="col-md-4 col-sm-6">
+            <div class="product-grid5 image8">
+                <div class="product-image5">
+                    <a href="#">
+                      <%= link_to image_tag("home1.jpg", height: 100 ), civil_path %>
+                    </a>
+                    <ul class="social">
+                    </ul>
+                    <a href="#" class="select-options"><i class="fa fa-arrow-right"></i> View Program</a>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Civil Discourse</a></h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+            <div class="product-grid5 image8">
+                <div class="product-image5 ">
+                    <a href="#">
+                      <%= link_to image_tag("home2.jpg", height: 100 ), social_path %>
+                    </a>
+                    <ul class="social">
+                    </ul>
+                    <a href="#" class="select-options"><i class="fa fa-arrow-right"></i> View Program</a>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Social Initiatives</a></h3>
+                </div>
+            </div>
+        </div>
+    </div>
