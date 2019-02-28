@@ -11,14 +11,15 @@ img{
 }
 
 .blogs p{
-font-family: Amatic SC;
-font-style: normal;
-font-weight: normal;
-line-height: normal;
-font-size: 36px;
 margin-bottom: 85px !important;
 text-align: left !important;
 // margin-left: 3% !important;
+
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 18px;
+    font-family: Roboto Mono;
 }
 
 .blogs h2{
