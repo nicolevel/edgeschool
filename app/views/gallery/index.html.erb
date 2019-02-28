@@ -16,6 +16,7 @@
       <tr>
         <td><%= gallery.title %></td>
         <td><%= gallery.description %></td>
+        <%= cl_image_tag gallery.photo %>
       </tr>
     <% end %>
   </tbody>
