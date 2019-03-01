@@ -1,12 +1,23 @@
-<div class="container">
+<%= render 'shared/navbar2' %>
 
-  <h1>
-    <%= @album.title %>
-    <%= @album.description %>
-  </h1>
+
+<div class="container photoalbum">
+  <h1> <%= @album.title %> </h1>
+   <h2> <%= @album.description %></h2>
+</div>
+
+<div class="container">
+  <div class="row">
     <% @album.photos.each do |photo| %>
-  <div class="col-lg-3 col-sm-6">
-    <%= cl_image_tag photo.photo, width: "100%", height: "auto" %>
+  <div class="col-md-3">
+    <div class="product-grid2">
+        <div class="product-image3">
+   <a href="#"> <%= cl_image_tag photo.photo %></a>
+  </div>
+  </div>
   </div>
   <% end %>
 </div>
+</div>
+
+

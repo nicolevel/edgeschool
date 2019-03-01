@@ -306,7 +306,7 @@ DEPENDENCIES
   bootsnap
   bootstrap-sass (~> 3.3)
   carrierwave
-  cloudinary
+  cloudinary (~> 1.9.1)
   devise
   dotenv-rails
   font-awesome-sass (~> 5.5.0)
