@@ -1,6 +1,5 @@
 class AlbumsController < ApplicationController
   before_action :set_album, only: [:show, :edit, :update, :destroy]
-
   # GET /albums
   # GET /albums.json
   def index
@@ -10,6 +9,8 @@ class AlbumsController < ApplicationController
   # GET /albums/1
   # GET /albums/1.json
   def show
+    @album = Album.find(params[:id])
+    @photo = Photo.new
   end
 
   # GET /albums/new

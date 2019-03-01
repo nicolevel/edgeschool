@@ -1,3 +1,12 @@
+<div class="container">
 
-
-<%= file_field_tag "album[images][]", type: :file, multiple: true %>
+  <h1>
+    <%= @album.title %>
+    <%= @album.description %>
+  </h1>
+    <% @album.photos.each do |photo| %>
+  <div class="col-lg-3 col-sm-6">
+    <%= cl_image_tag photo.photo, width: "100%", height: "auto" %>
+  </div>
+  <% end %>
+</div>
