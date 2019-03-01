@@ -2,7 +2,6 @@
 Rails.application.routes.draw do
   resources :albums
   resources :stories
-  mount Ckeditor::Engine => '/ckeditor'
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   resources :articles
   resources :blogs
@@ -19,7 +18,6 @@ Rails.application.routes.draw do
   get 'pages/social', as: 'social'
   get 'pages/capacity', as: 'capacity'
 
-  resources :gallery
   resources :messages, only: [:index, :new, :create]
   resources :contact, only: [:index, :new, :create]
 
