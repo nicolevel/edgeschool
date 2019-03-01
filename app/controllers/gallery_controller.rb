@@ -1,4 +1,6 @@
 class GalleryController < ApplicationController
+  skip_before_action :authenticate_user!, only: [:index, :show]
+
    # GET /galleries
   # GET /gallerys.json
   def index

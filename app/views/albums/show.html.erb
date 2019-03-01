@@ -1,19 +1,3 @@
-<p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
-  <%= @album.title %>
-</p>
 
-<p>
-  <strong>Description:</strong>
-  <%= @album.description %>
-</p>
-
-<p>
-  <strong>Photo:</strong>
-  <%= @album.photo %>
-</p>
-
-<%= link_to 'Edit', edit_album_path(@album) %> |
-<%= link_to 'Back', albums_path %>
+<%= file_field_tag "album[images][]", type: :file, multiple: true %>

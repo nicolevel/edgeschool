@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   resources :articles
   resources :blogs
-  resources :gallery
+  resources :photos
   devise_for :users
 
   get 'pages/contact', as: 'contact'
