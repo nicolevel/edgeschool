@@ -18,7 +18,6 @@ Rails.application.routes.draw do
   get 'pages/social', as: 'social'
   get 'pages/capacity', as: 'capacity'
 
-  resources :gallery
   resources :messages, only: [:index, :new, :create]
   resources :contact, only: [:index, :new, :create]
 
