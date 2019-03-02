@@ -1,21 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700');
 
-// .coverabout{
-//   background-image: url('whoweare.png'), linear-gradient(#eb01a5, #d13531); /* W3C */
-//   background-size: cover;
-//   height: 100vh;
-//   h1{
-//     color: white;
-//     text-align: center;
-//     font-family: Cabin Sketch;
-//     font-style: normal;
-//     font-weight: bold;
-//     line-height: normal;
-//     font-size: 115px;
-//      margin-top: 10%;
-//   }
-// }
+.chalk2{
+ text-align:center;
+}
+
+.chalk3{
+  text-align:center;
+  margin-top: 233px;
+  margin-bottom: -102px;
+
+}
 
 .coverabout {
 background: linear-gradient(to top, transparent 0%, black 177%), url(whoweare.png) no-repeat center;
