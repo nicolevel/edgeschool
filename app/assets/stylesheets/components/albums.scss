@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700');
 
+
+
+.product-content h3{
+      color: gray;
+    font-size: 12px;
+}
+
 .product-image2 img{
     width: 100%;
     height:auto;
@@ -18,16 +25,16 @@
   }
 
 
-.jumbotron-heading {
-text-align: center;
-font-family: Cabin Sketch;
-font-style: normal;
-font-weight: bold;
-line-height: normal;
-font-size: 100px;
-margin-top: 10%;
-margin-bottom:10%;
 
+.jumbotron-heading {
+    text-align: center;
+    font-family: amatic sc;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    font-size: 121px;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
   .title{
