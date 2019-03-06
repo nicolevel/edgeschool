@@ -23,6 +23,7 @@
                 <div class="product-content">
                   </br>
                     <h3 class="title"><a href="#"><%= link_to album.title, album_path(album) %></a></h3>
+                    <h3> <%= album.created_at.strftime('%b %d, %Y') %> </h3>
                 </div>
 
             </div>
