@@ -10,8 +10,10 @@ class PhotosController < ApplicationController
   # GET /albums/1
   # GET /albums/1.json
   def show
-    # @photos = Album.photo(params[:id])
     @photos = Photo.all
+    # @photo = Photo.find(params[:id])
+    # @photos = Photo.all
+    # @photo = Album.find(params[:album_id])
 
   end
 

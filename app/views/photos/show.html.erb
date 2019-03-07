@@ -1,15 +1,2 @@
-<p>
-  <strong>Title:</strong>
-  <%= @photo.title %>
-</p>
 
-<p>
-  <strong>Body:</strong>
-  <%= @photo.description %>
-</p>
 
-<ul>
-<% @album.photo.each do |photo| %>
-<li><%= photo.description %> - <%= photo.album.title %> | <%= link_to "Delete", photo_path(dose), method: delete  %></li>
-<% end %>
-</ul>
