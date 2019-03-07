@@ -12,18 +12,12 @@ end
 def create
   @contact = Message.new(params[:message])
   @contact.request = request
-  respond_to do |format|
-    if @contact.deliver
-      # re-initialize Home object for cleared form
-      @contact = Message.new
-      format.html { render 'messages/index', :layout => false }
-      format.js   { flash.now[:success] = @message = "Thank you for your message. I'll get back to you soon!" }
-    else
-      format.html { render 'pages/contact', :layout => false  }
-      format.js   { flash.now[:error] = @message = "Message did not send." }
-    end
+  @contact = Message.new(params[:message])
+  if @contact.valid?
+      flash[:notice] = "Message sent! Thank you for contacting us. We'll get back to you soon."
+      redirect_to root_url
+  else
+      render :action => 'new'
     end
   end
-
-
 end
