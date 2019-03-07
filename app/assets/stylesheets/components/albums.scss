@@ -1,6 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700');
 
 
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+
+
+
+// MODAL PART UP
+
 
 .product-content h3{
       color: gray;
