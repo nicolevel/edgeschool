@@ -47,23 +47,23 @@
                     </div>
 
 
-                     <% @album.photos.each do |photo| %>
                     <div class="modal-body">
+                     <% @album.photos.each do |photo| %>
                         <img id="image-gallery-image" class="img-responsive col-md-12" src="">
                          <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="HELLO"
                           data-target="#image-gallery"> <%= cl_image_tag photo.photo %></a>
                          </a>
-                    </div>
+                       <% end %>
                     </div>
 
 
+                    </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary float-left" id="show-previous-image"><i class="fa fa-arrow-left"></i>
                         </button>
 
                         <button type="button" id="show-next-image" class="btn btn-secondary float-right"><i class="fa fa-arrow-right"></i>
                         </button>
-                    <% end %>
                     </div>
                 </div>
             </div>
