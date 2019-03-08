@@ -1,3 +1,48 @@
 <%= render 'shared/navbar' %>
+<!-- Section: Contact v.1 -->
+<section class="container-fluid" id="martop" style="background-color: #ADAAAA;">
+  <div class="container">
+    <!-- Grid row -->
+    <div class="row">
 
-<h3>Thank you for your message. I'll get back to you soon!</h3>
+      <!-- Grid column -->
+      <div class="col-lg-6 mb-lg-0 mb-4" >
+
+        <!-- Form with header -->
+        <div class="card" style="background-color: #ADAAAA;">
+          <h1>contact us</h1>
+          <h3>For more info or enquiries, please contact us on the details provided below.</h3>
+          <h5>Tel: 076 8200059  |  Email: info@edgeschools.co.za</h5>
+          <div class="card-body" style="background-color: #ADAAAA;">
+
+            <div id="contact">
+              <%= form_for @contact do |f| %>
+              <%= f.text_field  :name, required: true, placeholder: 'name', class: "contact-form-text-area" %></br>
+              <%= f.text_field :email, required: true, placeholder: 'email', class: "contact-form-text-area" %></br>
+              <%= f.text_area :message, rows: 6, cols: 40, required: true, class: "contact-form-text-area",
+              placeholder: "Send me a message"%></br>
+
+              <%= f.submit 'Send Message', class: 'btn btn-primary btn-block' %>
+
+              <% end %>
+              <div  id="flash-message">
+                <%= render 'shared/flash' %>
+              </div>
+            </div>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+      </div>
+      <div class="col-lg-5">
+
+        <%= image_tag'image8.png', width: "100%", height: "auto" %>
+
+      </div>
+    </div>
+    <!-- Grid row -->
+  </div>
+</section>
+<!-- Section: Contact v.1 -->
