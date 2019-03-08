@@ -28,11 +28,12 @@ font-size: 115px;
 }
 
 .title h3{
-color:white;
-font-family: "Amatic SC";
-font-style: normal;
-font-size: 41px;
-text-align:center;
+    color: white;
+    font-family: roboto mono;
+    font-style: normal;
+    font-size: 27px;
+    font-weight: lighter;
+    text-align: center;
 }
 
 .images{
@@ -73,7 +74,7 @@ margin-bottom: 10%;
 
   h3{
     margin-bottom: 5%;
-    font-size: 2.5em;
+    font-size: 2.1em;
     font-weight: normal;
     font-family: Roboto Mono;
   }
