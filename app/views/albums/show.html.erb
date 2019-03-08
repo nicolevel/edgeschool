@@ -8,28 +8,14 @@
 
 </div>
 
-<!-- <div class="container">
-  <div class="row">
-    <% @album.photos.each do |photo| %>
-  <div class="col-md-3 col-sm-12">
-    <div class="product-grid2">
-        <div class="product-image3">
-          <a href="#" data-toggle="modal" data-target="#exampleModal"> <%= cl_image_tag photo.photo %></a>
-          </div>
-        </div>
-      </div>
-         <% end %>
-       </div>
-     </div> -->
-
 
 
 <div class="container">
   <div class="row">
-    <div class="row">
+      <div class="img-fluid">
             <% @album.photos.each do |photo| %>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="HELLO"
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
                    data-target="#image-gallery"> <%= cl_image_tag photo.photo %></a>
                 </a>
             </div>
