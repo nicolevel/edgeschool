@@ -8,33 +8,23 @@
 
 </div>
 
-<!-- <div class="container">
-  <div class="row">
-    <% @album.photos.each do |photo| %>
-  <div class="col-md-3 col-sm-12">
-    <div class="product-grid2">
-        <div class="product-image3">
-          <a href="#" data-toggle="modal" data-target="#exampleModal"> <%= cl_image_tag photo.photo %></a>
-          </div>
-        </div>
-      </div>
-         <% end %>
-       </div>
-     </div> -->
-
 
 
 <div class="container">
   <div class="row">
-    <div class="row">
+    <!-- <div class="img-cha"> -->
             <% @album.photos.each do |photo| %>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="HELLO"
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
                    data-target="#image-gallery"> <%= cl_image_tag photo.photo %></a>
                 </a>
             </div>
              <% end %>
+          </div>
         </div>
+
+
+
 
 
         <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -46,13 +36,11 @@
                         </button>
                     </div>
 
-
                     <div class="modal-body">
                      <% @album.photos.each do |photo| %>
                         <img id="image-gallery-image" class="img-responsive col-md-12" src="">
-                         <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="HELLO"
-                          data-target="#image-gallery"> <%= cl_image_tag photo.photo %></a>
-                         </a>
+                         <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                          data-target="#image-gallery-<%= photo.id %>">  <%= cl_image_tag photo.photo %> </a>
                        <% end %>
                     </div>
 
@@ -70,5 +58,7 @@
         </div>
   </div>
 </div>
+
+
 
 
