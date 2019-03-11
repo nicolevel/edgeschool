@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   devise_for :users
 
   get 'pages/contact', as: 'contact'
+  post 'pages/contact', to: 'messages#create', as: 'create_message'
   get 'pages/whatweoffer', as: 'whatweoffer'
   get 'pages/whoweare', as: 'whoweare'
 
