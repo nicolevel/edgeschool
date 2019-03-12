@@ -1,3 +1,7 @@
+
+<script src="//www.powr.io/powr.js?external-type=html"></script>
+
+
 <%= render 'shared/navbar' %>
 <!-- Section: Contact v.1 -->
 <section class="container-fluid" id="martop" style="background-color: #ADAAAA;">
@@ -10,26 +14,28 @@
 
         <!-- Form with header -->
         <div class="card" style="background-color: #ADAAAA;">
-          <h1>contact us</h1>
+        <div class="powr-contact-form" id="be7632ed_1552402251"></div>
+
+       <!--    <h1>contact us</h1>
           <h3>For more info or enquiries, please contact us on the details provided below.</h3>
           <h5>Tel: 076 8200059  |  Email: info@edgeschools.co.za</h5>
           <div class="card-body" style="background-color: #ADAAAA;">
 
             <div id="contact">
-              <%= form_for Message.new do |f| %>
-              <%= f.text_field  :name, required: true, placeholder: 'name', class: "contact-form-text-area" %></br>
-              <%= f.text_field :email, required: true, placeholder: 'email', class: "contact-form-text-area" %></br>
-              <%= f.text_area :message, rows: 6, cols: 40, required: true, class: "contact-form-text-area",
+              <%#= form_for Message.new do |f| %>
+              <%#= f.text_field  :name, required: true, placeholder: 'name', class: "contact-form-text-area" %></br>
+              <%#= f.text_field :email, required: true, placeholder: 'email', class: "contact-form-text-area" %></br>
+              <%#= f.text_area :message, rows: 6, cols: 40, required: true, class: "contact-form-text-area",
               placeholder: "Send me a message"%></br>
 
-              <%= f.submit 'Send Message', class: 'btn btn-primary btn-block' %>
+              <%#= f.submit 'Send Message', class: 'btn btn-primary btn-block' %>
 
-              <% end %>
+              <%# end %>
               <div  id="flash-message">
-                <%= render 'shared/flash' %>
+                <%#= render 'shared/flash' %>
               </div>
             </div>
-          </div>
+          </div> -->
           <!-- Grid column -->
         </div>
         <!-- Grid column -->
