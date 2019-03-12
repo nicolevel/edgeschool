@@ -135,3 +135,13 @@ h2{
     margin-bottom: 10%;
 }
 }
+
+.zoomin{
+  transition: transform .7s;
+}
+
+.zoomin:hover{
+  transform: scale(2.5);
+  position: absolute;
+  z-index: 2;
+}
