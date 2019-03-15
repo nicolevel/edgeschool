@@ -108,3 +108,106 @@ width:300%;
     margin-bottom: 30px;
     }
 //POPUP
+
+.dark{
+  font-weight: bold !important;
+  text-shadow: 2px 2px gray;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .circle {
+  border: 1px solid black;
+  border-radius: 50%;
+  padding-top: 5% ;
+  padding-bottom: 5% ;
+  margin-left: 30% !important;
+  margin-right: 30% !important;
+  margin-bottom: 30px !important;
+  margin-top: 30px !important;
+
+  }
+  .adventurecamp{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   .circle {
+  border: 1px solid black;
+  border-radius: 50%;
+  padding-top: 5% ;
+  padding-bottom: 5% ;
+  margin-left: 35% !important;
+  margin-right: 35% !important;
+  margin-bottom: 30px !important;
+  margin-top: 30px !important;
+
+  }
+  .adventurecamp{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   .circle {
+  border: 1px solid black;
+  border-radius: 50%;
+  padding-top: 5% ;
+  padding-bottom: 5% ;
+  margin-left: 35% !important;
+  margin-right: 35% !important;
+  margin-bottom: 30px !important;
+  margin-top: 30px !important;
+
+  }
+  .adventurecamp{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .circle {
+  border: 1px solid black;
+  border-radius: 50%;
+  padding-top: 10% ;
+  padding-bottom: 10% ;
+  margin-left: 25% !important;
+  margin-right: 25% !important;
+  margin-bottom: 30px !important;
+  margin-top: 30px !important;
+
+  }
+  .adventurecamp{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .circle {
+  border: 1px solid black;
+  border-radius: 50%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left: 80px;
+  margin-right: 80px;
+  }
+}
