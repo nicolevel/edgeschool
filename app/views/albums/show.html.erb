@@ -9,24 +9,25 @@
 </div>
 
 
-
 <div class="container">
   <div class="row">
-    <!-- <div class="img-cha"> -->
+<div id="gallery">
             <% @album.photos.each do |photo| %>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div class="col-lg-3 col-md-4 col-xs-6 photo">
                 <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
-                   data-target="#image-gallery"> <%= cl_image_tag photo.photo, class: "zoomin" %></a>
+                   data-target="#image-gallery" style=" height: 183px; width: 98%;
+"> <%= cl_image_tag photo.photo, class: "zoomin" %></a>
                 </a>
             </div>
              <% end %>
           </div>
         </div>
+      </div>
 
 
 
 
-
+<!--
         <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
@@ -62,3 +63,4 @@
 
 
 
+ -->

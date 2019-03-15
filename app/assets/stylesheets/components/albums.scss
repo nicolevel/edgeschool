@@ -15,10 +15,7 @@
   // margin-bottom: 15px;
  }
 
-.img-cha{
-   height: 211px;
-  width: 279px;
-}
+
 
 body{
 // background-url: "http://api.thumbr.it/whitenoise-361x370.png?background=deddc7ff&noise=968696&density=15&opacity=15";
@@ -40,7 +37,7 @@ background-image: url("background.jpeg") !important;
 }
 
 .product-content h3{
-      color: gray;
+      color: black;
     font-size: 12px;
 }
 
@@ -76,7 +73,7 @@ background-image: url("background.jpeg") !important;
 
   .title{
     a {
-    color: #007bff;
+    color: #d32f13;
     font-size: 15px;
     margin-bottom: 20px;
     text-decoration: none;
@@ -118,6 +115,17 @@ background-image: url("background.jpeg") !important;
   height: 100%;
   display: table;
 }
+
+#gallery{
+  display: flex;
+  column-gap: 0px;
+  display: inline-block;
+}
+
+.photo{
+
+}
+
 
 
 .photoalbum{
