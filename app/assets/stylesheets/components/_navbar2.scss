@@ -7,16 +7,18 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+    background-color: #EFF1F2 !important;
    a {
-  color: black !important;
-  font-weight: 150 !important;
+  color: #CE1414 !important;
+  font-weight: initial !important;
 }
 }
 
 /* Logo */
 
 .navbar-wagon-brand img {
-    height: 148px;
+  height: 174px !important;
+  margin-top: 5%;
 }
 /* User Avatar */
 .navbar-wagon .avatar {
