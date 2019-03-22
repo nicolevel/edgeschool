@@ -1,33 +1,34 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700');
 
-.chalk2{
- text-align:center;
-}
+// .chalk2{
+//  text-align:center;
+// }
 
-.chalk3{
-  text-align:center;
-  margin-top: 76px;
-  margin-bottom: -102px;
+// .chalk3{
+//     text-align: center;
+//     margin-top: 129px;
+//     margin-bottom: -128px;
 
-}
+// }
 
 .coverabout {
-background: linear-gradient(to top, transparent 0%, black 232%), url(whowearesindi.jpg) no-repeat center;
-background-size: cover;
-height: 66vh;
+    background: linear-gradient(to top, transparent 0%, black 232%), url(whowearesindi.jpg) no-repeat center;
+    background-size: cover;
+    height: 71vh;
+    // margin-top: -13%;
 
 
 
   h1{
-    color: white;
+     color: white;
     text-align: center;
     font-family: Cabin Sketch;
     font-style: normal;
     font-weight: bold;
     line-height: normal;
-    font-size: 115px;
-     margin-top: 9%;
+    font-size: 85px;
+    margin-top: 14%;
   }
 }
 
