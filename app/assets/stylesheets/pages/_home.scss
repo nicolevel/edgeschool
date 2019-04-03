@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700');
 
+body{
+     background-color: #efefef;
+background-image: url("https://www.transparenttextures.com/patterns/subtle-white-feathers.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+
 .background {
 background-image:url("board1.jpg");
 background-size: cover;
