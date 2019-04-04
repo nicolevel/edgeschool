@@ -11,20 +11,20 @@
   <h2> Social Initiatives </h2>
 
   <div class="img-thumbnail ad2">
- <%= image_tag'social4.jpg', class: "img1", width: "400px" %>
+   <%= image_tag'social4.jpg', class: "img1", width: "400px" %>
+ </div>
+
+ <div class="img-thumbnail ad">
+   <%= image_tag'social2.png', class: "img2", width: "400px" %>
+ </div>
+
+ <div class="img-thumbnail ad2">
+   <%= image_tag'social3.png', class: "img3", width: "400px" %>
+ </div>
+</div>
 </div>
 
-<div class="img-thumbnail ad">
- <%= image_tag'social2.png', class: "img2", width: "400px" %>
-</div>
-
-<div class="img-thumbnail ad2">
- <%= image_tag'social3.png', class: "img3", width: "400px" %>
-</div>
-</div>
-</div>
-
-  <h3 class="text-center" style="margin-top:5%;"> Edge Schools collaborates with a variety of NGOs in the Durban area to facilitate programmes that promote leadership development and social change.  </h3>
+<h3 class="text-center" style="margin-top:5%;"> Edge Schools collaborates with a variety of NGOs in the Durban area to facilitate programmes that promote leadership development and social change.  </h3>
 
 
 
@@ -42,67 +42,127 @@
         <li class="listings" >Hockey Programme (grade 8s&9s)</li>
         <li class="listings" >Providing volunteers to help at the Baby Home</li>
       </ul>
+      <div class="container mt-3">
+        <div class="row">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#basicExampleModal">
+            Learn more
+          </button>
 
+          <!-- Modal -->
+          <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+           <%= image_tag '1.jpg', width: "110%", height: "120%"%>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+ <div class="col-md-4">
+  <%= image_tag 'keyofhope.png', class: "picsocial" %>
+  <div class="card-body">
+    <h5 class="card-title">Key of Hope</h5>
+    <p class="card-text"></p>
   </div>
-      <div class="col-md-4">
-      <%= image_tag 'keyofhope.png', class: "picsocial" %>
-      <div class="card-body">
-        <h5 class="card-title">Key of Hope</h5>
-        <p class="card-text"></p>
-      </div>
-      <ul class="list-group list-group-flush">
-        <li class="listings" >Matric Support Programme</li>
-        <li class="listings" >Year of Your Life Gap Year Programme</li>
-        <li class="listings" >Literacy Programme</li>
-      </ul>
+  <ul class="list-group list-group-flush">
+    <li class="listings" >Matric Support Programme</li>
+    <li class="listings" >Year of Your Life Gap Year Programme</li>
+    <li class="listings" >Literacy Programme</li>
+  </ul>
+  <div class="container mt-3">
+        <div class="row">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#basicExampleModall">
+            Learn more
+          </button>
 
+          <!-- Modal -->
+          <div class="modal fade" id="basicExampleModall" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+           <%= image_tag '2.jpg', width: "110%", height: "120%"%>
+         </div>
+       </div>
+     </div>
+   </div>
+
+</div>
+
+<div class="col-md-4">
+  <%= image_tag 'lily.png', class: "picsocial" %>
+  <div class="card-body">
+    <h5 class="card-title"> Lily of the Valley</h5>
+    <p class="card-text"></p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="listings" >Study Skills Support</li>
+    <li class="listings" >Sport Programme</li>
+    <li class="listings" >Providing volunteers to help with after school programmes</li>
+  </ul>
+  <div class="container mt-3">
+        <div class="row">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#basicExampleModalllll">
+            Learn more
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="basicExampleModalllll" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+           <%= image_tag '4.jpg', width: "110%", height: "120%"%>
+         </div>
+       </div>
+     </div>
+   </div>
+</div>
+
+
+
+</div> <!-- row -->
+
+<div class="row mt-5" style="justify-content: space-around;">
+  <div class="col-md-4">
+    <%= image_tag 'city.jpg', class: "picsocial2"%>
+    <div class="card-body">
+      <h5 class="card-title">City Celebration </h5>
+      <p class="card-text"></p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="listings" >Providing volunteers to teach dance classes in secondary schools</li>
+    </ul>
   </div>
 
-        <div class="col-md-4">
-      <%= image_tag 'lily.png', class: "picsocial" %>
-      <div class="card-body">
-        <h5 class="card-title"> Lily of the Valley</h5>
-        <p class="card-text"></p>
-      </div>
-      <ul class="list-group list-group-flush">
-        <li class="listings" >Study Skills Support</li>
-        <li class="listings" >Sport Programme</li>
-        <li class="listings" >Providing volunteers to help with after school programmes</li>
-      </ul>
+  <div class="col-md-4">
+    <%= image_tag 'domino_logo.png', class: "picsocial2"%>
+    <div class="card-body">
+      <h5 class="card-title">Domino Foundation</h5>
+      <p class="card-text"></p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="listings" >Leadership Development (grade 6s&7s)</li>
+    </ul>
+  <div class="container mt-3">
+        <div class="row">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#basicExampleModalll">
+            Learn more
+          </button>
 
+          <!-- Modal -->
+          <div class="modal fade" id="basicExampleModalll" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+           <%= image_tag '3.jpg', width: "110%", height: "120%"%>
+         </div>
+       </div>
+     </div>
+   </div>
   </div>
 
 
-
-  </div> <!-- row -->
-
-    <div class="row mt-5" style="justify-content: space-around;">
-    <div class="col-md-4">
-      <%= image_tag 'city.jpg', class: "picsocial2"%>
-      <div class="card-body">
-        <h5 class="card-title">City Celebration </h5>
-        <p class="card-text"></p>
-      </div>
-      <ul class="list-group list-group-flush">
-        <li class="listings" >Providing volunteers to teach dance classes in primary schools</li>
-      </ul>
-  </div>
-
-      <div class="col-md-4">
-      <%= image_tag 'domino_logo.png', class: "picsocial2"%>
-      <div class="card-body">
-        <h5 class="card-title">Domino Foundation</h5>
-        <p class="card-text"></p>
-      </div>
-      <ul class="list-group list-group-flush">
-        <li class="listings" >Leadership Development (grade 6s&7s)</li>
-      </ul>
-
-  </div>
-
-
-  </div> <!-- row -->
+</div> <!-- row -->
 
 
 </div> <!-- continaer -->
-
