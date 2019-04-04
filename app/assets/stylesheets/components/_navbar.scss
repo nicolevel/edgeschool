@@ -84,13 +84,19 @@
 
 //navbar
 .navbar-fixed-top.scrolled {
-  background-color: #EFF1F2 !important;
+  background-color: white !important;
+  opacity: 0.9;
   transition: background-color 200ms linear !important;
 
   a {
   // color: #0A1C58 !important;
-  color: #E5280B !important;
+  color: black !important;
   font-weight: initial !important;
+}
+
+a :hover
+{
+  color:red;
 }
 }
 
