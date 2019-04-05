@@ -19,21 +19,18 @@
 }
 
 .picsocial{
-  width: 250px;
-  height: 131px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 15px;
+    width: 241px;
+    height: 152px;
+    display: block;
+    padding-top: 7px;
+    margin-right: 3%;
 }
 
 .picsocial2{
-  width: 280px;
-  height: 151px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 15px;
+  width: 275px;
+    height: 198px;
+    display: block;
+    padding-top: 16px;
 }
 
 .card{
@@ -44,8 +41,12 @@ box-shadow: -14px 11px 16px -2px rgba(181,179,181,0.65);
 }
 
 .listings{
-  font-size: 1.3em;
-  list-style: none;
+  // font-size: 1.3em;
+  // list-style: none;
+
+  font-size: 2.3em;
+    text-align: center;
+    list-style: none;
 }
 
 
