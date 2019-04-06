@@ -10,12 +10,103 @@
 
   <h2 class="h1-responsive font-weight-bold text-center"> What's News</h2>
 
-  <p class="text-center w-responsive mx-auto mb-5">Discover what we are up to</p>
+  <p class="text-center w-responsive mx-auto mb-5">Edge Schools has chosen not to have any social media pages. However, we will post 3 new blogs every month to keep you updated on <strong>What's News</strong>!</p>
 
 
 
 <!--blogs -->
 <hr>
+
+
+
+<div class="container blogcards video">
+    <div class="row">
+      <div class="cardi col-md-12 p-3">
+        <div class="row ">
+          <div class="col-md-4 vid">
+<%= video_tag(["video 1.mp4"], :autoplay => false, :loop => false, :controls => true, muted: false) %>
+</div>
+
+          <div class="col-md-8">
+            <div class="card-block">
+              <h6 class="card-title">Gap Year Programme</h6>
+                <h5>By: Slim</h5>
+                <h5>01/2/2019</h5>
+          </br>
+          <span> According to Stats SA, South Africa's unemployment rate is high for both youth and adults; however, the unemployment rate amongst young people aged 15–34 was 38,2%. This means that more than one in every three
+
+Below you can view our programme overview; these hands will definitely not be idle for a while 😊  </span>
+              <div>
+          </div>
+        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<div class="container blogcards">
+    <div class="row">
+      <div class="cardi col-md-12 p-3">
+        <div class="row ">
+          <div class="col-md-4 vid">
+<%= video_tag(["video 2.mp4"], :autoplay => false, :loop => false, :controls => true, muted: false) %>
+</div>
+
+          <div class="col-md-8">
+            <div class="card-block">
+              <h6 class="card-title">Gap Year Programme</h6>
+                <h5>By: Slim</h5>
+                <h5>01/2/2019</h5>
+          </br>
+          <span> According to Stats SA, South Africa's unemployment rate is high for both youth and adults; however, the unemployment rate amongst young people aged 15–34 was 38,2%. This means that more than one in every three
+
+Below you can view our programme overview; these hands will definitely not be idle for a while 😊  </span>
+              <div>
+          </div>
+        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+<div class="container blogcards">
+    <div class="row">
+      <div class="cardi col-md-12 p-3">
+        <div class="row ">
+          <div class="col-md-4 vid">
+<%= video_tag(["video 3.mp4"], :autoplay => false, :loop => false, :controls => true, muted: false) %>
+</div>
+
+          <div class="col-md-8">
+            <div class="card-block">
+              <h6 class="card-title">Gap Year Programme</h6>
+                <h5>By: Slim</h5>
+                <h5>01/2/2019</h5>
+          </br>
+          <span> According to Stats SA, South Africa's unemployment rate is high for both youth and adults; however, the unemployment rate amongst young people aged 15–34 was 38,2%. This means that more than one in every three
+
+Below you can view our programme overview; these hands will definitely not be idle for a while 😊  </span>
+              <div>
+          </div>
+        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+<!-- admin ones -->
+
 <div class="container blogcards">
   <% @blogs.each do |blog| %>
     <div class="row">
@@ -24,6 +115,7 @@
           <div class="col-md-4">
             <div class="blogimages">
            <%= cl_image_tag blog.photo %>
+
           </div>
         </div>
           <div class="col-md-8">
@@ -34,6 +126,7 @@
               <div>
               </div>
             </div>
+
 
 
  <span class="more">

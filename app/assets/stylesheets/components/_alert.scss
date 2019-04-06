@@ -21,16 +21,29 @@
 .picsocial{
     width: 241px;
     height: 152px;
-    display: block;
-    padding-top: 7px;
-    margin-right: 3%;
+    // display: block;
+    // padding-top: 7px;
+    // margin-right: 3%;
+  // width: 250px;
+  // height: 131px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
 }
 
 .picsocial2{
-  width: 275px;
-    height: 198px;
-    display: block;
-    padding-top: 16px;
+  // width: 275px;
+  //   height: 198px;
+  //   display: block;
+  //   padding-top: 16px;
+
+     width: 280px;
+  height: 151px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
 }
 
 .card{
@@ -49,4 +62,6 @@ box-shadow: -14px 11px 16px -2px rgba(181,179,181,0.65);
     list-style: none;
 }
 
-
+.assos{
+  border-style: double;
+}
