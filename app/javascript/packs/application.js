@@ -1,6 +1,9 @@
 import "bootstrap";
 
 
+
+// other
+
 let modalId = $('#image-gallery');
 
 $(document)
