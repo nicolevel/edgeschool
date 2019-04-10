@@ -12,6 +12,13 @@
 
 // }
 
+@font-face {
+font-family: 'Ink Free Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Ink Free Regular'), url('Inkfree.woff') format('woff');
+}
+
 .coverabout {
     background: linear-gradient(to top, transparent 0%, black 232%), url(whowearesindi.jpg) no-repeat center;
     background-size: cover;
