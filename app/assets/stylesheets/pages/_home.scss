@@ -11,6 +11,10 @@ background-image: url("https://www.transparenttextures.com/patterns/subtle-white
 .background {
 background-image:url("333.jpg");
 background-size: cover;
+background-position: center center;
+ background-attachment: fixed;
+ background-color: #464646 !important;
+
 }
 
 .chalk{
@@ -30,14 +34,14 @@ font-family: Cabin Sketch;
 font-style: normal;
 font-weight: bold;
 line-height: normal;
-// font-size:80px !important;
+font-size:80px !important;
 }
 
 .is
 {
 
 h3{
-    color: black;
+    color: white;
     font-family: Amatic sc;
     font-size: 60px;
     font-weight: bold;
@@ -46,7 +50,7 @@ h3{
   }
 
    p{
-    color: black;
+    color: white;
     font-family: roboto mono;
     font-size: 21px;
     text-align:center;
@@ -215,13 +219,140 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 
   .title h1 {
-  margin-top: 60%;
+  // margin-top: 60%;
+  // font-size: 40px !important;
 }
 
 .imagehome img {
     margin: 5px;
 }
 }
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* STYLES GO HERE */
+.title h1 {
+  // margin-top: 60%;
+  font-size: 40px ;
+}
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* STYLES GO HERE */
+.title h1 {
+  // margin-top: 60%;
+  font-size: 40px ;
+}
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+.title h1 {
+  // margin-top: 60%;
+  font-size: 40px ;
+}
+
+/* STYLES GO HERE */
+}
+
+// /* iPads (portrait and landscape) ----------- */
+// @media only screen
+// and (min-device-width : 768px)
+// and (max-device-width : 1024px) {
+// /* STYLES GO HERE */
+
+
+// }
+
+// /* iPads (landscape) ----------- */
+// @media only screen
+// and (min-device-width : 768px)
+// and (max-device-width : 1024px)
+// and (orientation : landscape) {
+// /* STYLES GO HERE */
+
+
+// }
+
+// /* iPads (portrait) ----------- */
+// @media only screen
+// and (min-device-width : 768px)
+// and (max-device-width : 1024px)
+// and (orientation : portrait) {
+// /* STYLES GO HERE */
+
+
+// }
+
+
+
+/* iPhone 5 (portrait &amp; landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+/* STYLES GO HERE */
+.title h1 {
+  margin-top: 60%;
+  font-size: 40px !important;
+}
+
+}
+
+/* iPhone 5 (landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+/* STYLES GO HERE */
+.title h1 {
+  margin-top: 60%;
+  font-size: 40px !important;
+}
+
+}
+
+/* iPhone 5 (portrait)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+/* STYLES GO HERE */
+.title h1 {
+  margin-top: 60%;
+  font-size: 40px !important;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
