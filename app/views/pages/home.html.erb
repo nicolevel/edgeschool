@@ -8,7 +8,7 @@
 <div class="container-fluid background">
 <div class="container title">
   <h1>INSPIRING LEADERS TO REALIZE THEIR POTENTIAL </h1>
-</div>
+
 
 <div class="container">
 <div class="imagehome">
@@ -22,32 +22,119 @@
 <div class="img-thumbnail picture3">
   <%= image_tag "homepage3.jpg", height: 410 %>
 </div>
-
 </div>
 </div>
-</div>
-
-<div class="container is">
-<div class="chalk"> <%= image_tag "chalk.png", height: 50 %> </div>
-  <h3> Edge Schools is a Human Development Company which facilitates tailored training programmes for schools and organizations.</h3>
- <div class="chalk1"> <%= image_tag "chalk.png", height: 50 %> </div>
-</div>
-
-<div class="container iss">
-   <h3>  We are passionate about seeing desired change in individuals of all ages and backgrounds. </h3>
- </div>
-
-<div class= "container">
-   <div class="text-center video-container">
- <iframe width="850" height="550" src="https://www.youtube.com/embed/e_AIe0vRL1o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
- </div>
 
 
 
-<%= render 'shared/programs' %>
+<div class="container is text-center"style="font-size:5vw;">
+  <ul>
+  <h3 style="font-size:5vw;"> Edge Schools is a Human Development Company which facilitates tailored training programmes for schools and organizations.</h3>
+   <p style="font-size:2vw;" > "We are passionate about seeing desired change in individuals of all ages and backgrounds." </p>
+ </ul>
 </div>
 
 
 
+<div class="container text-center">
 
+<div class="resp-container">
+<iframe class="resp-iframe" src="https://www.youtube.com/embed/e_AIe0vRL1o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</br>
+</br>
+</br>
+
+
+</div>
+</div>
+
+
+<!--programs-->
+<div class="container pictures" style="font-size:2vw;">
+    <div class="row">
+      <h2 class="dark1 text-center" style="font-size:8vw;"> Select the Programme That meets your needs</h2>
+    <div class="row" style="justify-content: center !important;" >
+
+        <div class="col-md-4 col-sm-6">
+            <div class="product-grid51">
+                <div class="product-image5">
+                    <a href="#">
+                      <%= link_to image_tag("program1.jpg", height: 100 ), leadership_path %>
+                    </a>
+                    <ul class="social">
+                    </ul>
+                    <a href="/pages/leadership" class="select-options"><i class="fa fa-arrow-right"></i> View Program</a>
+                </div>
+                <div class="product-content">
+                    <h3 class="title" style="font-size:2vw;"><a href="#"> Leadership Development</a></h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="product-grid51">
+                <div class="product-image5">
+                    <a href="#" style="font-size:2vw;">
+                      <%= link_to image_tag("home1.jpg", height: 100 ), adventure_path %>
+                    </a>
+                    <ul class="social">
+                    </ul>
+                     <a href="/pages/adventure" class="select-options"><i class="fa fa-arrow-right"></i> View Program</a>
+                </div>
+                <div class="product-content" style="font-size:2vw;">
+                    <h3 class="title" style="font-size:2vw;"><a href="#">Adventure Camps</a></h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+            <div class="product-grid51">
+                <div class="product-image5">
+                    <a href="#">
+                      <%= link_to image_tag("c.JPG", height: 100 ), capacity_path %>
+                    </a>
+                    <ul class="social">
+                    </ul>
+                     <a href="/pages/capacity" class="select-options"><i class="fa fa-arrow-right"></i> View Program</a>
+                </div>
+                <div class="product-content">
+                    <h3 class="title" style="font-size:2vw;"><a href="#">Capacity Building</a></h3>
+                </div>
+            </div>
+        </div>
+
+                <div class="col-md-4 col-sm-6">
+            <div class="product-grid51 image8">
+                <div class="product-image5">
+                    <a href="#">
+                      <%= link_to image_tag("cv.jpg", height: 100 ), civil_path %>
+                    </a>
+                    <ul class="social">
+                    </ul>
+                     <a href="/pages/civil" class="select-options"><i class="fa fa-arrow-right"></i> View Program</a>
+                </div>
+                <div class="product-content">
+                    <h3 class="title" style="font-size:2vw;"><a href="#">Civil Discourse</a></h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+            <div class="product-grid51 image8">
+                <div class="product-image5 ">
+                    <a href="#">
+                      <%= link_to image_tag("image9.jpeg", height: 100 ), social_path %>
+                    </a>
+                    <ul class="social">
+                    </ul>
+                   <a href="/pages/social" class="select-options"><i class="fa fa-arrow-right"></i> View Program</a>
+                </div>
+                <div class="product-content">
+                    <h3 class="title" style="font-size:2vw;"><a href="#">Social Initiatives</a></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
