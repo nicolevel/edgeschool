@@ -167,6 +167,9 @@ src: local('Ink Free Regular'), url('Inkfree.woff') format('woff');
   .whowearetitle{
     margin-top:140px !important;
   }
+  .footer-copyright1{
+    display: none !important;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -205,6 +208,9 @@ src: local('Ink Free Regular'), url('Inkfree.woff') format('woff');
   }
   .whowearetitle{
     margin-top:140px !important;
+  }
+  .footer-copyright1{
+    display: none !important;
   }
 }
 
@@ -245,6 +251,9 @@ src: local('Ink Free Regular'), url('Inkfree.woff') format('woff');
   .whowearetitle{
     margin-top:140px !important;
   }
+  .footer-copyright1{
+    display: none !important;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -274,6 +283,9 @@ src: local('Ink Free Regular'), url('Inkfree.woff') format('woff');
   }
   .whowearetitle{
     margin-top:165px !important;
+  }
+  .footer-copyright1{
+    display: block !important;
   }
 }
 
@@ -305,7 +317,9 @@ src: local('Ink Free Regular'), url('Inkfree.woff') format('woff');
   .whowearetitle{
     margin-top:165px !important;
   }
-
+  .footer-copyright1{
+    display: block !important;
+  }
 }
 
 
