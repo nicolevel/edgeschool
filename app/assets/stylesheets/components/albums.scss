@@ -153,3 +153,11 @@ h2{
   position: absolute;
   z-index: 1;
 }
+
+.websy{
+  text-decoration: none !important;
+  color:gray !important;
+  &:hover{
+  color:black !important;
+  }
+}

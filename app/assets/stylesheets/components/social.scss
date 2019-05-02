@@ -129,7 +129,10 @@ font-family: Amatic SC !important;
   }
 }
 
-.circle-container {
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .circle-container {
   @include distribute-on-circle(8, 20em, 6em, false);
   margin-left: 36%;
 
@@ -152,3 +155,118 @@ font-family: Amatic SC !important;
    // }
 }
 
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .circle-container {
+  @include distribute-on-circle(8, 20em, 6em, false);
+  margin-left: 36%;
+
+}
+
+.circle-container img {
+  display: block;
+  width: 160%;
+  height: 160%;
+  border-radius: 50%;
+   // transition: transform .2s;
+
+  // filter: grayscale(100%);
+
+   // &:hover {
+   //  transform: scale(1.5);
+
+   // filter: grayscale(0);
+
+   // }
+}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .circle-container {
+  @include distribute-on-circle(8, 20em, 6em, false);
+  margin-left: 36%;
+
+}
+
+.circle-container img {
+  display: block;
+  width: 160%;
+  height: 160%;
+  border-radius: 50%;
+   // transition: transform .2s;
+
+  // filter: grayscale(100%);
+
+   // &:hover {
+   //  transform: scale(1.5);
+
+   // filter: grayscale(0);
+
+   // }
+}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .circle-container {
+  @include distribute-on-circle(8, 20em, 6em, false);
+  margin-left: 36%;
+
+}
+
+.circle-container img {
+  display: block;
+  width: 160%;
+  height: 160%;
+  border-radius: 50%;
+  -webkit-box-shadow: -12px 11px 38px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: -12px 11px 38px 5px rgba(0,0,0,0.75);
+box-shadow: -12px 11px 38px 5px rgba(0,0,0,0.75);
+   transition: transform .4s;
+
+  // filter: grayscale(100%);
+
+   &:hover {
+  transform: scale(1.5);
+
+   // filter: grayscale(0);
+
+   }
+}
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .circle-container {
+  @include distribute-on-circle(8, 20em, 6em, false);
+  margin-left: 36%;
+
+}
+
+.circle-container img {
+  display: block;
+  width: 160%;
+  height: 160%;
+  border-radius: 50%;
+  -webkit-box-shadow: -12px 11px 38px 5px rgba(0,0,0,0.75);
+  -moz-box-shadow: -12px 11px 38px 5px rgba(0,0,0,0.75);
+  box-shadow: -12px 11px 38px 5px rgba(0,0,0,0.75);
+  transition: transform .4s;
+
+  // filter: grayscale(100%);
+
+   &:hover {
+   transform: scale(1.5);
+
+   // filter: grayscale(0);
+
+   }
+}
+
+}
