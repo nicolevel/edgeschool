@@ -65,6 +65,19 @@ text-align: left !important;
     font-weight: normal;
     line-height: normal;
     font-size: 16px;
+    color:#ce1414 !important;
+    text-decoration: none !important;
+}
+
+.morelink:hover{
+  text-decoration: none;
+}
+
+
+.morelink a{
+    color: darkred!important;
+    text-decoration: none!important;
+    background-color: transparent;
 }
 
 .more{
@@ -86,15 +99,84 @@ text-align: left !important;
 
 
 
+@media only screen and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+  /* STYLES GO HERE */
+.blogimages img {
+    height: 150px !important;
+  }
+}
 
-// .title {
-//   text-align: center
-//   color: #C2A878
-// }
-// .text{
-//   padding: 10px
-//   font-size: 18px
-//   color: #14281D
-// }
+.blogimages{
+img{
+  height:250px;
+  border-radius: 1px;
+  margin-top:20px;
+  margin-bottom:20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+}
+
+.blogs p{
+margin-bottom: 37px !important;
+
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+}
 
 
+@media only screen and (max-device-width: 480px) {
+ .blogimages img {
+    height: 223px !important;
+  }
+
+  .vid video {
+    height: 163px !important;
+}
+}
+
+
+.vid video{
+    height: 185px;
+    margin-top: 16%;
+    margin-left: 1%;
+    border-style: groove;
+    background-color: white;
+}
+
+@media screen and (device-aspect-ratio: 375/667) {
+ .vid video {
+    height: 190px !important;
+}
+
+}
+
+@media screen and (device-aspect-ratio: 16/9) {
+   .vid video {
+    height: 280px !important;
+}
+}
+
+@media screen and (device-aspect-ratio: 3/4) {
+   .vid video {
+    height: 131px!important;
+    }
+    .blogimages img {
+    height: 168px !important;
+  }
+}
+
+/* ----------- iPad Pro ----------- */
+/* Portrait and Landscape */
+@media only screen
+  and (min-width: 1024px)
+  and (max-height: 1366px)
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+      .vid video {
+    height: 169px!important;
+    }
+    .blogimages img {
+    height: 209px !important;
+  }
+}

@@ -193,14 +193,14 @@ This in return will facilitate opportunities for young men & women to work as ch
       <div class="cardi col-md-12 p-3">
         <div class="row ">
           <div class="col-md-4">
-            <div class="blogimages">
+            <div class="blogimages img-fluid" style=" max-width: 100%; height: auto;">
            <%= cl_image_tag blog.photo %>
 
           </div>
         </div>
           <div class="col-md-8">
             <div class="card-block">
-              <h6 class="card-title"><%= blog.title %></h6>
+              <h6 class="card-title h6-responsive"><%= blog.title %></h6>
                 <h5> <%= blog.created_at.strftime('%b %d, %Y') %> </h5>
           </br>
               <div>
