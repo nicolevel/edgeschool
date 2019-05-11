@@ -1,13 +1,13 @@
 
 Rails.application.routes.draw do
-  devise_for :admins
+  devise_for :users
   resources :albums
   resources :stories
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   resources :articles
   resources :blogs
   resources :photos
-  devise_for :users
+  # devise_for :users
 
   get 'pages/contact', as: 'contact'
   post 'pages/contact', to: 'messages#create', as: 'create_message'
