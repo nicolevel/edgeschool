@@ -302,7 +302,6 @@ DEPENDENCIES
   autoprefixer-rails
   bootsnap
   bootstrap-sass (~> 3.3)
-  bundler (~> 2.0.2)
   carrierwave
   cloudinary (~> 1.9.1)
   devise
