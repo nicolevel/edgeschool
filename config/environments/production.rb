@@ -1,5 +1,5 @@
 Rails.application.configure do
-  config.action_mailer.default_url_options = { host: "edgeschools.co.za" }
+  config.action_mailer.default_url_options = { host: "https://edgeschool.herokuapp.com/" }
   # Verifies that versions and hashed value of the package contents in the project's package.json
   config.webpacker.check_yarn_integrity = false
   # Settings specified here will take precedence over those in config/application.rb.
@@ -82,7 +82,7 @@ Rails.application.configure do
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
 
-  config.action_mailer.default_url_options = { :host => 'edgeschools.co.za' }
+  config.action_mailer.default_url_options = { :host => 'edgeschool.herokuapp.com' }
 config.action_mailer.delivery_method = :smtp
 config.action_mailer.perform_deliveries = true
 config.action_mailer.raise_delivery_errors = false
@@ -90,7 +90,7 @@ config.action_mailer.default :charset => "utf-8"
   config.action_mailer.smtp_settings = {
     address:              'smtp.gmail.com',
     port:                      '587',
-    domain:                 'edgeschools.co.za',
+    domain:                 'herokuapp.com',
     user_name:           ENV["GMAIL_EMAIL"],
     password:              ENV["GMAIL_PASSWORD"],
     authentication:      'plain',
