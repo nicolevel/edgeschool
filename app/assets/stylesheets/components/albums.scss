@@ -176,6 +176,7 @@ h2{
 
 // }
 
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .zoomin{
@@ -197,7 +198,7 @@ h2{
   }
 
   .zoomin:hover{
-    transform: scale(2.0);
+    transform: scale(2.5);
     position: absolute;
     z-index: 1;
   }

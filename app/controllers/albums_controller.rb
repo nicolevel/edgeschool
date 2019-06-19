@@ -15,6 +15,7 @@ class AlbumsController < ApplicationController
     # @photo = Photo.find(params[:id])
   end
 
+
   # GET /albums/new
   def new
     @album = Album.new
