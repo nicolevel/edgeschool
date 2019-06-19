@@ -99,9 +99,13 @@
 
   a {
   // color: #0A1C58 !important;
-  color: white!important;
+  color: white !important;
   font-weight: initial !important;
 }
+
+  .dropdownbckg a{
+    color: black !important;
+  }
 
 a :hover
 {
@@ -109,6 +113,10 @@ a :hover
 }
 }
 
-
+.dropdownbckg a{
+    font-size: 1.5rem ;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
 
