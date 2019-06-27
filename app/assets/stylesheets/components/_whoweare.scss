@@ -34,7 +34,7 @@ src: local('Ink Free Regular'), url('Inkfree.woff') format('woff');
     font-style: normal;
     font-weight: bold;
     line-height: normal;
-    font-size: 72px;
+    font-size: 60px;
     margin-top: 14%;
     margin: 13%;
   }
@@ -196,6 +196,9 @@ width: 100%;
   .footer-copyright1{
     display: none !important;
   }
+   .coverabout h1{
+      font-size: 28px !important;
+   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
