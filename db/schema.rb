@@ -23,23 +23,6 @@ ActiveRecord::Schema.define(version: 2019_03_01_141152) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "articles", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string "photo_file_name"
-    t.string "photo_content_type"
-    t.integer "photo_file_size"
-    t.datetime "photo_updated_at"
-    t.string "music_file_name"
-    t.string "music_content_type"
-    t.integer "music_file_size"
-    t.datetime "music_updated_at"
-    t.string "movie_file_name"
-    t.string "movie_content_type"
-    t.integer "movie_file_size"
-    t.datetime "movie_updated_at"
-  end
-
   create_table "blogs", force: :cascade do |t|
     t.string "title"
     t.text "body"
