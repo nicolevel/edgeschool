@@ -24,7 +24,6 @@ gem "paperclip", "~> 6.0.0"
 gem 'paperclip-av-transcoder'
 gem 'cloudinary', '~> 1.9.1'
 gem 'psych', '< 4'
-gem "dotenv-rails", groups: [:development, :test]
 
 group :development do
   gem 'web-console', '>= 3.3.0'
