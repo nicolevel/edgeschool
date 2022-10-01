@@ -22,7 +22,7 @@ gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
 gem "paperclip", "~> 6.0.0"
 gem 'paperclip-av-transcoder'
 gem 'cloudinary', '~> 1.9.1'
-gem 'webpacker'
+gem 'webpacker', '~> 3.5'
 gem 'psych', '< 4'
 
 group :development do
