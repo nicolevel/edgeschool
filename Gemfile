@@ -3,7 +3,6 @@ ruby '3.1.2'
 
 gem 'bootsnap'
 gem 'devise'
-gem 'webpacker'
 gem 'jbuilder', '~> 2.0'
 gem 'pg', '~> 1.0'
 gem 'puma'
@@ -23,6 +22,7 @@ gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
 gem "paperclip", "~> 6.0.0"
 gem 'paperclip-av-transcoder'
 gem 'cloudinary', '~> 1.9.1'
+gem 'webpacker'
 gem 'psych', '< 4'
 
 group :development do
