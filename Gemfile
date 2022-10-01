@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 ruby '3.1.2'
 
-gem 'webpacker'
 gem 'bootsnap'
 gem 'devise'
+gem 'webpacker', '~> 4.0'
 gem 'jbuilder', '~> 2.0'
 gem 'pg', '~> 1.0'
 gem 'puma'
